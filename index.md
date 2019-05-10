@@ -4,6 +4,7 @@
 		<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="rooftop_channel" data-parent="rooftop">
 			<img src="/assets/img/Rooftop_banner.jpg" alt="The Rooftop Banner" height="auto" width="100%"/>
 		</a>
+		<a href="https://discord.gg/EnxejzC" target="_blank" id="rooftop_discord" data-parent="rooftop">Rooftop Discord</a>
 	</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
 	<div id="open_mic_night-child" class="innertext center" data-parent="open_mic_night">
