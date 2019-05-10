@@ -18,6 +18,6 @@
 		<a href="https://account.altvr.com/channels/DavesEntertainment" target="_blank" id="daves_entertainment_channel" data-parent="daves_entertainment">
 			<img src="/assets/img/davesentertainment_banner.jpg" alt="Dave's Entertainment Banner" height="auto" width="100%"/>
 		</a>
-		<a href="https://discord.gg/pVhJUrx" target="_blank" id="daves_entertainment_discord" data-parent="daves_entertainment">Dave's Entertainment Discord</a>
+		<!--<a href="https://discord.gg/pVhJUrx" target="_blank" id="daves_entertainment_discord" data-parent="daves_entertainment">Dave's Entertainment Discord</a>-->
 	</div>
 </div>
