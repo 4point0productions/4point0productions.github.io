@@ -5,7 +5,7 @@
 	</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
 	<div id="open_mic_night-child" class="innertext center" data-parent="open_mic_night">
-		<img src="/assets/img/omn_banner.jpg" alt="Open Mic Night Banner" height="auto" width="100%"/>
+		<img src="/assets/img/omn_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
 	</div>
 	<button class="collapsible" id="daves_entertainment" data-parent="daves_entertainment" data-child="daves_entertainment-child">Dave's Entertainment</button>
 	<div id="daves_entertainment-child" class="innertext center" data-parent="daves_entertainment">
