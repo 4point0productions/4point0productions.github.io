@@ -18,9 +18,9 @@
 	<button class="collapsible" id="game_together_with_cooper" data-parent="game_together_with_cooper" data-child="game_together_with_cooper-child">Game Together with Cooper</button>
 	<div id="game_together_with_cooper-child" class="innertext center" data-parent="game_together_with_cooper">
 		<br />
-		<a href="https://account.altvr.com/channels/openmicnight" target="_blank" id="open_mic_night_channel" data-parent="game_together_with_cooper">
-			<img src="/assets/img/gtwc_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
-		</a>
+		<!--<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="open_mic_night_channel" data-parent="game_together_with_cooper">-->
+			<img src="/assets/img/gtwc_banner.png" alt="Game Together with Cooper Banner" height="auto" width="100%"/>
+		<!--</a>-->
 		<p><a href="https://discord.gg/6axDXA" target="_blank" id="game_together_with_cooper_discord" data-parent="game_together_with_cooper">Game Together with Cooper Discord</a></p>
 	</div>
 </div>
