@@ -29,30 +29,30 @@ footer {
 
 /* unvisited link */
 a:link {
-    color: #0ac139;
+    color: #d4c176;
     text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: #0ac139;
+    color: #9200fc;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #0ac139;
+    color: #cebb74;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: #0ac139;
+    color: #cebb74;
     text-decoration: underline;
 }
 
 a {
-    color: #0ac139;
+    color: #d4c176;
     text-decoration: underline;
 }
 
@@ -134,7 +134,7 @@ ul {
 button {
     font-family: ComicSans;
     background-color: #000000;
-    color: #00FF00;
+    color: #049866;
     padding: 10px;
     border-radius: 10px;
 }
@@ -225,13 +225,13 @@ li.navbar a:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #0f0; 
+    background: #9200fc; 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #009900; 
+    background: #ff00fe; 
 }
 
 /*corner where the scrollbars meet*/
@@ -242,7 +242,7 @@ li.navbar a:hover {
 /* collapsible layout */
 
 .collapsible {
-    background-color: #006900;
+    background-color: #049866;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -274,7 +274,7 @@ li.navbar a:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #020;
+    background-color: #cf9cff69;
     text-align: left;
     border-radius: 10px;
     margin-bottom: 1.5em;
