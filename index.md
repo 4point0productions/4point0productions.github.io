@@ -3,7 +3,7 @@
 	<div id="store" class="innertext center" data-parent="openme">
 		<br />
 		<a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="merch_store" data-parent="openme">Rooftop Store</a>
-		<br />
+		<br /><br />
 	</div>
 	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop</button>
 	<div id="rooftop-child" class="innertext center" data-parent="rooftop">
