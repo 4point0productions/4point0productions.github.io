@@ -1,4 +1,9 @@
 <div class="encase">
+	<button class="collapsible" id="openme" data-parent="openme" data-child="store">Merch Store</button>
+	<div id="store" class="innertext center" data-parent="openme">
+		<br />
+		<a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="merch_store" data-parent="openme">Rooftop Store</a>
+	</div>
 	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop</button>
 	<div id="rooftop-child" class="innertext center" data-parent="rooftop">
 		<br />
@@ -18,7 +23,7 @@
 	<button class="collapsible" id="game_together_with_cooper" data-parent="game_together_with_cooper" data-child="game_together_with_cooper-child">Game Together with Cooper</button>
 	<div id="game_together_with_cooper-child" class="innertext center" data-parent="game_together_with_cooper">
 		<br />
-		<!--<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="open_mic_night_channel" data-parent="game_together_with_cooper">-->
+		<!--<a href="https://account.altvr.com/channels/" target="_blank" id="game_together_with_cooper_channel" data-parent="game_together_with_cooper">-->
 			<img src="/assets/img/gtwc_banner.png" alt="Game Together with Cooper Banner" height="auto" width="100%"/>
 		<!--</a>-->
 		<p><a href="https://discord.gg/6axDXA" target="_blank" id="game_together_with_cooper_discord" data-parent="game_together_with_cooper">Game Together with Cooper Discord</a></p>
