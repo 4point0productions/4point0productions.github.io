@@ -19,7 +19,7 @@
 		<a href="https://account.altvr.com/channels/openmicnight" target="_blank" id="open_mic_night_channel" data-parent="open_mic_night">
 			<img src="/assets/img/omn_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
 		</a>
-		<p><a href="https://discord.gg/VPb3yss" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>
+		<!--<p><a href="https://discord.gg/VPb3yss" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>-->
 	</div>
 	<button class="collapsible" id="game_together_with_cooper" data-parent="game_together_with_cooper" data-child="game_together_with_cooper-child">Game Together with Cooper</button>
 	<div id="game_together_with_cooper-child" class="innertext center" data-parent="game_together_with_cooper">
