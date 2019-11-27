@@ -14,7 +14,7 @@
 			<p><a href="https://discord.gg/EnxejzC" target="_blank" id="rooftop_discord" data-parent="openme">Rooftop Discord</a></p>
 			<p><a href="https://www.youtube.com/channel/UCbfC2jrbV-aO5oSIWcW16Xg" target="_blank" id="rooftop_youtube" data-parent="openme">Rooftop YouTube Channel</a></p>
 			<iframe id="embed" allow="encrypted-media" style="max-width:100%; height:640px; width:1140px; border:0px" allowfullscreen  data-parent="openme"></iframe>
-			<hr style="height:20px; visibility:hidden;">
+			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
 		<div id="open_mic_night-child" class="innertext center" data-parent="open_mic_night">
@@ -36,4 +36,3 @@
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script src="/assets/js/firebase.js"></script>
-
