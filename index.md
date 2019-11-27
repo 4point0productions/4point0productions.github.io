@@ -8,7 +8,7 @@
 	<button class="collapsible" id="openme" data-parent="openme" data-child="rooftop">The Rooftop</button>
 		<div id="rooftop" class="innertext center" data-parent="openme">
 			<br />
-			<iframe id="embed" allow="encrypted-media" style="max-width:100%; height:auto; width:1140px; border:0px" allowfullscreen  data-parent="openme"></iframe>
+			<!-- <iframe id="embed" allow="encrypted-media" style="max-width:100%; height:640; width:1140px; border:0px" allowfullscreen  data-parent="openme"></iframe> <!---->
 			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="rooftop_channel" data-parent="openme">
 				<img src="/assets/img/Rooftop_banner.png" alt="The Rooftop Banner" height="auto" width="100%"/>
 			</a>
@@ -32,6 +32,7 @@
 			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>
 		</div>
 </div>
+<!--
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script>
@@ -50,3 +51,4 @@
 		}));
 	}));
 </script>
+<!---->
