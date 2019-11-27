@@ -8,12 +8,12 @@
 	<button class="collapsible" id="openme" data-parent="openme" data-child="rooftop">The Rooftop</button>
 		<div id="rooftop" class="innertext center" data-parent="openme">
 			<br />
-			<!-- <iframe id="embed" allow="encrypted-media" style="max-width:100%; height:640; width:1140px; border:0px" allowfullscreen  data-parent="openme"></iframe> <!---->
 			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="rooftop_channel" data-parent="openme">
 				<img src="/assets/img/Rooftop_banner.png" alt="The Rooftop Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/EnxejzC" target="_blank" id="rooftop_discord" data-parent="openme">Rooftop Discord</a></p>
 			<p><a href="https://www.youtube.com/channel/UCbfC2jrbV-aO5oSIWcW16Xg" target="_blank" id="rooftop_youtube" data-parent="openme">Rooftop YouTube Channel</a></p>
+			<iframe id="embed" allow="encrypted-media" style="max-width:100%; height:640; width:1140px; border:0px" allowfullscreen  data-parent="openme"></iframe> <!---->
 		</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
 		<div id="open_mic_night-child" class="innertext center" data-parent="open_mic_night">
@@ -32,13 +32,12 @@
 			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>
 		</div>
 </div>
-<!--
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
 <script>
 	// Initialize Firebase
 	var config = {
-		databaseURL: "https://vr-productions.firebaseio.com",
+		databaseURL: "https://vr-productions-fce36.firebaseio.com/",
 	};
 	firebase.initializeApp(config);
 	var database = firebase.database();
