@@ -13,7 +13,7 @@
 			</a>
 			<p><a href="https://discord.gg/EnxejzC" target="_blank" id="rooftop_discord" data-parent="rooftop">Rooftop Discord</a></p>
 			<p><a href="https://www.youtube.com/channel/UCbfC2jrbV-aO5oSIWcW16Xg" target="_blank" id="rooftop_youtube" data-parent="rooftop">Rooftop YouTube Channel</a></p>
-			<iframe id="embed" allow="encrypted-media" style="max-width:100%; height:640px; width:1140px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>
+			<iframe id="embed" allow="encrypted-media" style="max-width:100%; height:480px; width:855px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
