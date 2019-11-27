@@ -33,6 +33,3 @@
 			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>
 		</div>
 </div>
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
-<script src="/assets/js/firebase.js"></script>
