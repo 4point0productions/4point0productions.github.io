@@ -2,8 +2,8 @@
 	<button class="collapsible" id="openme" data-parent="openme" data-child="store">Merch Store</button>
 		<div id="store" class="innertext center" data-parent="openme">
 			<hr style="height:10px; visibility:hidden;">
-			<a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="merch_store" data-parent="openme">Rooftop Store</a>
-			<br /><br />
+			<p><a href="https://teespring.com/stores/40-vr-productions" target="_blank" id="merch_store" data-parent="openme">TeeSpring Store</a></p>
+			<p><a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="old_merch_store" data-parent="openme">TeePublic Store</a></p>
 		</div>
 	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop</button>
 		<div id="rooftop-child" class="innertext center" data-parent="rooftop">
