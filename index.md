@@ -36,8 +36,8 @@
 			<hr style="height:10px; visibility:hidden;">
 			<!--<a href="https://account.altvr.com/channels/minimumspecs" target="_blank" id="minimum_specs_channel" data-parent="minimum_specs">-->
 				<img src="/assets/img/wtg.png" alt="We The Gamers Banner" height="auto" width="100%"/>
-			<!--</a>-->
-			<!--<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>-->
+			<!--</a>
+			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>-->
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 </div>
