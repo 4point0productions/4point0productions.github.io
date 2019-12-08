@@ -31,4 +31,12 @@
 			</a>
 			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>
 		</div>
+	<button class="collapsible" id="we_the_gamers" data-parent="we_the_gamers" data-child="we_the_gamers-child">We The Gamers</button>
+		<div id="we_the_gamers-child" class="innertext center" data-parent="we_the_gamers">
+			<hr style="height:10px; visibility:hidden;">
+			<!--<a href="https://account.altvr.com/channels/minimumspecs" target="_blank" id="minimum_specs_channel" data-parent="minimum_specs">-->
+				<img src="/assets/img/wtg.png" alt="We The Gamers Banner" height="auto" width="100%"/>
+			<!--</a>-->
+			<!--<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>-->
+		</div>
 </div>
