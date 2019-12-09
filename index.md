@@ -22,8 +22,8 @@
 				<img src="/assets/img/omn_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/6hUbDyC" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>
-			<a href="https://www.twitch.tv/telepathicrum" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">TelepathicRum on Twitch</a>
-			<iframe id="omnembed" allow="encrypted-media" style="max-width:100%; height:480px; width:855px; border:0px" allowfullscreen="true"  scrolling="no" data-parent="open_mic_night"></iframe>
+			<p><a href="https://www.twitch.tv/telepathicrum" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">TelepathicRum on Twitch</a></p>
+			<iframe id="omnembed" style="max-width:100%; height:480px; width:855px; border:0px" allowfullscreen="true"  scrolling="no" data-parent="open_mic_night"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="minimum_specs" data-parent="minimum_specs" data-child="minimum_specs-child">Minimum Specs</button>
