@@ -8,8 +8,8 @@ master.on('value', (function(snapshot) {
 	var masterVal = snapshot.val();
 	if(masterVal){
 		//Rooftop Video
-		var rooftop = database.ref('rooftop');
-		var rooftopstate = database.ref('rooftopstate')
+		var rooftop = database.ref('the-rooftop/id');
+		var rooftopstate = database.ref('the-rooftop/state')
 		rooftopstate.on('value', (function(snapshot) { 
 			var rooftopstateVal = snapshot.val();
 			if(rooftopstateVal){
@@ -21,8 +21,8 @@ master.on('value', (function(snapshot) {
 			}
 		}));
 		//Open Mic Night Video
-		var omn = database.ref('omn');
-		var omnstate = database.ref('omnstate')
+		var omn = database.ref('open-mic/id');
+		var omnstate = database.ref('open-mic/state')
 		omnstate.on('value', (function(snapshot) { 
 			var omnstateVal = snapshot.val();
 			if(omnstateVal){
