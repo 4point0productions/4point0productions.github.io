@@ -12,9 +12,11 @@ state.on('value', (function(snapshot) {
 		document.getElementById('rooftopembed').src = "https://www.youtube.com/embed/"+rooftopVal;
 	}));
 	//Open Mic Night Video
+	/*
 	var omn = database.ref('rooftop');
 	omn.on('value', (function(snapshot) {
 		var omnVal = snapshot.val();
 		document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal;
 	}));
+	*/
 }));
