@@ -42,8 +42,9 @@ var Rooftop = {
 	databaseURL: "https://vr-productions-fce36.firebaseio.com/the-rooftop",
 };
 firebase.initializeApp(Rooftop);
-var rooftop = database.ref('id');
-var rooftopstate = database.ref('state')
+var rooftopDatabase = firebase.database();
+var rooftop = rooftopDatabase.ref('id');
+var rooftopstate = rooftopDatabase.ref('state')
 rooftopstate.on('value', (function(snapshot) { 
 	var rooftopstateVal = snapshot.val();
 	if(rooftopstateVal){
@@ -59,8 +60,9 @@ var open_mic_night = {
 	databaseURL: "https://vr-productions-fce36.firebaseio.com/open-mic-night",
 };
 firebase.initializeApp(open_mic_night);
-var omn = database.ref('id');
-var omnstate = database.ref('state')
+var omnDatabase = firebase.database();
+var omn = omndatabase.ref('id');
+var omnstate = omndatabase.ref('state')
 omnstate.on('value', (function(snapshot) { 
 	var omnstateVal = snapshot.val();
 	if(omnstateVal){
