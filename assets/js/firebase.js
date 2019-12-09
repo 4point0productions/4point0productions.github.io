@@ -28,8 +28,8 @@ master.on('value', (function(snapshot) {
 			if(omnstateVal){
 				omn.on('value', (function(snapshot) {
 					var omnVal = snapshot.val();
-					document.getElementById('rooftopembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-					document.getElementById('rooftopembed').src = "https://www.youtube.com/embed/"+omnVal;
+					document.getElementById('omnembed').style = "max-width:100%; height:480px; width:855px; border:0px";
+					document.getElementById('omnembed').src = "https://www.youtube.com/embed/"+omnVal;
 				}));
 			}
 		}));
