@@ -29,7 +29,7 @@ master.on('value', (function(snapshot) {
 				omn.on('value', (function(snapshot) {
 					var omnVal = snapshot.val();
 					document.getElementById('omnembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-					document.getElementById('omnembed').src = "https://www.youtube.com/embed/"+omnVal;
+					document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal;
 				}));
 			}
 		}));
