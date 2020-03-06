@@ -19,6 +19,10 @@ master.on('value', (function(snapshot) {
 					document.getElementById('rooftopembed').src = "https://www.youtube.com/embed/"+rooftopVal;
 				}));
 			}
+			if(!rooftopstateVal){
+				document.getElementById('rooftopembed').style = "max-width:0px; height:0px; width:0px; border:0px";
+				document.getElementById('rooftopembed').src = "";
+			}
 		}));
 		//Open Mic Night Video
 		var omnstate = database.ref('open-mic/state')
@@ -32,6 +36,16 @@ master.on('value', (function(snapshot) {
 					document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal;
 				}));
 			}
+			if(!omnstateVal){
+				document.getElementById('omnembed').style = "max-width:0px; height:0px; width:0px; border:0px";
+				document.getElementById('omnembed').src = "";
+			}
 		}));
+	}
+	if(!masterVal){
+		document.getElementById('rooftopembed').style = "max-width:0px; height:0px; width:0px; border:0px";
+		document.getElementById('rooftopembed').src = "";
+		document.getElementById('omnembed').style = "max-width:0px; height:0px; width:0px; border:0px";
+		document.getElementById('omnembed').src = "";
 	}
 }));
