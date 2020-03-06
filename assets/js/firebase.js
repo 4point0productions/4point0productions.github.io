@@ -3,48 +3,29 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-var master = database.ref('master');
-master.on('value', (function(snapshot) {
-	var masterVal = snapshot.val();
-	if(masterVal){
-		//Rooftop Video
-		var rooftopstate = database.ref('the-rooftop/state')
-		rooftopstate.on('value', (function(snapshot) { 
-			var rooftopstateVal = snapshot.val();
-			if(rooftopstateVal){
-				var rooftop = database.ref('the-rooftop/id');
-				rooftop.on('value', (function(snapshot) {
-					var rooftopVal = snapshot.val();
-					document.getElementById('rooftopembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-					document.getElementById('rooftopembed').src = "https://www.youtube.com/embed/"+rooftopVal;
-				}));
-			}
-			if(!rooftopstateVal){
-				document.getElementById('rooftopembed').style = "max-width:0px; height:0px; width:0px; border:0px";
-				document.getElementById('rooftopembed').src = "";
-			}
-		}));
-		//Open Mic Night Video
-		var omnstate = database.ref('open-mic/state')
-		omnstate.on('value', (function(snapshot) { 
-			var omnstateVal = snapshot.val();
-			if(omnstateVal){
-				var omn = database.ref('open-mic/id');
-				omn.on('value', (function(snapshot) {
-					var omnVal = snapshot.val();
-					document.getElementById('omnembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-					document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal;
-				}));
-			}
-			if(!omnstateVal){
-				document.getElementById('omnembed').style = "max-width:0px; height:0px; width:0px; border:0px";
-				document.getElementById('omnembed').src = "";
-			}
-		}));
+//Rooftop Video
+var rooftop = database.ref('the-rooftop/id');
+rooftop.on('value', (function(snapshot) { 
+	var rooftopVal = snapshot.val();
+	if(rooftopVal){
+			document.getElementById('rooftopembed').style = "max-width:100%; height:480px; width:855px; border:0px";
+			document.getElementById('rooftopembed').src = "https://www.youtube.com/embed/"+rooftopVal;
+		
 	}
-	if(!masterVal){
+	if(!rooftopVal){
 		document.getElementById('rooftopembed').style = "max-width:0px; height:0px; width:0px; border:0px";
 		document.getElementById('rooftopembed').src = "";
+	}
+}));
+//Open Mic Night Video
+var omn = database.ref('open-mic/id');
+omn.on('value', (function(snapshot) {
+	var omnVal = snapshot.val();
+	if(omnVal){
+		document.getElementById('omnembed').style = "max-width:100%; height:480px; width:855px; border:0px";
+		document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal;
+	}
+	if(!omnVal){
 		document.getElementById('omnembed').style = "max-width:0px; height:0px; width:0px; border:0px";
 		document.getElementById('omnembed').src = "";
 	}
