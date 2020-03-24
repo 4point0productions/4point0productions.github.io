@@ -7,13 +7,14 @@
 	<button class="collapsible" id="openme" data-parent="openme" data-child="rooftop">The Rooftop</button>
 		<div id="rooftop" class="innertext center" data-parent="openme">
 			<hr style="height:10px; visibility:hidden;">
+			<iframe id="rooftopembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>
 			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="rooftop_channel" data-parent="rooftop">
 				<img src="/assets/img/Rooftop_banner.png" alt="The Rooftop Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/EnxejzC" target="_blank" id="rooftop_discord" data-parent="rooftop">Rooftop Discord</a></p>
 			<p><a href="https://twitter.com/rooftopvr" target="_blank" id="rooftop_twitter" data-parent="rooftop">Rooftop Twitter</a></p>
 			<p><a href="https://www.youtube.com/channel/UCbfC2jrbV-aO5oSIWcW16Xg" target="_blank" id="rooftop_youtube" data-parent="rooftop">Rooftop YouTube Channel</a></p>
-			<iframe id="rooftopembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>
+			<!--<iframe id="rooftopembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>-->
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
