@@ -12,6 +12,7 @@
 				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
+			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZWLSYm1e_hE5UfzxJr1tG6TY4QYN4abcBevQ1OxvgCtwjnA/viewform" target="_blank" id="hunt_egg" data-parent="hunt">Submit the eggs you found</a></p>
 			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
