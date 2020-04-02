@@ -4,6 +4,16 @@
 			<p><a href="https://teespring.com/stores/4point0vr" target="_blank" id="merch_store" data-parent="openme">TeeSpring Store</a></p>
 			<p><a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="old_merch_store" data-parent="openme">TeePublic Store</a></p>
 		</div>
+	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Rooftop</button>
+		<div id="hunt-child" class="innertext center" data-parent="hunt">
+			<hr style="height:10px; visibility:hidden;">
+			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="hunt_channel" data-parent="hunt">
+				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
+			</a>
+			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
+			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>
+			<hr style="height:10px; visibility:hidden;">
+		</div>
 	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop</button>
 		<div id="rooftop-child" class="innertext center" data-parent="rooftop">
 			<hr style="height:10px; visibility:hidden;">
