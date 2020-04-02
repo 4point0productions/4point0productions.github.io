@@ -36,7 +36,7 @@ hunt.on('value', (function(snapshot) {
 	var huntVal = snapshot.val();
 	if(huntVal){
 		document.getElementById('huntembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-		document.getElementById('huntembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+huntVal;
+		document.getElementById('huntembed').src = "https://www.youtube.com/embed/"+huntVal;
 	}
 	if(!omnVal){
 		document.getElementById('huntembed').style = "max-width:0px; height:0px; width:0px; border:0px";
