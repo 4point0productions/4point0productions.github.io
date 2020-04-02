@@ -8,7 +8,9 @@
 		<div id="hunt-child" class="innertext center" data-parent="hunt">
 			<hr style="height:10px; visibility:hidden;">
 			<p>You have a chance to win a $24 Steam or Amazon gift card!</p>
-			<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
+			<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">
+				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
+			</a>
 			<img src="/assets/img/rules.png" alt="The Hunt Rules" height="auto" width="100%"/>
 			<img src="/assets/img/Screenshot.png" alt="The Hunt Event" height="auto" width="100%"/>
 			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
@@ -35,6 +37,7 @@
 				<img src="/assets/img/omn_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/6hUbDyC" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>
+			<p><a href="https://twitch.tv/telepathicrum" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">Telepathic Rum on Twitch</a></p>
 			<iframe id="omnembed" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen="true"  scrolling="no" data-parent="open_mic_night"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
