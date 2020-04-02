@@ -9,6 +9,7 @@
 			<hr style="height:10px; visibility:hidden;">
 			<p>You have a chance to win a $24 Steam or Amazon gift card!</p>
 			<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
+			<img src="/assets/img/rules.png" alt="The Hunt Rules" height="auto" width="100%"/>
 			<img src="/assets/img/Screenshot.png" alt="The Hunt Event" height="auto" width="100%"/>
 			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
 			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZWLSYm1e_hE5UfzxJr1tG6TY4QYN4abcBevQ1OxvgCtwjnA/viewform" target="_blank" id="hunt_egg" data-parent="hunt">Submit the eggs you found</a></p>
