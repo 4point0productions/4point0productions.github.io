@@ -4,7 +4,7 @@
 			<p><a href="https://teespring.com/stores/4point0vr" target="_blank" id="merch_store" data-parent="openme">TeeSpring Store</a></p>
 			<p><a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="old_merch_store" data-parent="openme">TeePublic Store</a></p>
 		</div>
-	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Rooftop</button>
+	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Hunt</button>
 		<div id="hunt-child" class="innertext center" data-parent="hunt">
 			<hr style="height:10px; visibility:hidden;">
 			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="hunt_channel" data-parent="hunt">
