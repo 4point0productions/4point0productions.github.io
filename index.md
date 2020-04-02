@@ -7,6 +7,7 @@
 	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Hunt</button>
 		<div id="hunt-child" class="innertext center" data-parent="hunt">
 			<hr style="height:10px; visibility:hidden;">
+			<p>You have a chance to win a $24 Steam or Amazon gift card!</p>
 			<a href="https://account.altvr.com/channels/therooftop" target="_blank" id="hunt_channel" data-parent="hunt">
 				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
 			</a>
