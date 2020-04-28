@@ -37,6 +37,7 @@
 			<p><a href="https://discord.gg/6hUbDyC" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>
 			<p><a href="https://twitch.tv/openmicnightvr" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">Open Mic Night on Twitch</a></p>
 			<iframe id="omnembed" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen="true"  scrolling="no" data-parent="open_mic_night"></iframe>
+			<p><a href="https://www.youtube.com/playlist?list=PLmGyUaDT3QAcYhY9SU8RQOp7kPjgKlooO" target="_blank" id="open_mic_night_youtube" data-parent="open_mic_night">Open Mic Night playlist on YouTube</a></p>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="minimum_specs" data-parent="minimum_specs" data-child="minimum_specs-child">Minimum Specs</button>
