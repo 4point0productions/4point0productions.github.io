@@ -7,14 +7,12 @@
 	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Hunt</button>
 		<div id="hunt-child" class="innertext center" data-parent="hunt">
 			<hr style="height:10px; visibility:hidden;">
-			<p>You have a chance to win a $24 Steam or Amazon gift card!</p>
+			<p>Congratulations to the winners:&nbsp; Daisy Shaw, Mr. Yellow - Marcel, and Simsimer</p>
+			<img src="/assets/img/The_Yellow_Daisy_Dream_Team.png" alt="Winners of The Hunt 2020" height="auto" width="100%"/>
 			<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">
 				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
 			</a>
-			<img src="/assets/img/rules.png" alt="The Hunt Rules" height="auto" width="100%"/>
-			<img src="/assets/img/Screenshot.png" alt="The Hunt Event" height="auto" width="100%"/>
 			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
-			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZWLSYm1e_hE5UfzxJr1tG6TY4QYN4abcBevQ1OxvgCtwjnA/viewform" target="_blank" id="hunt_egg" data-parent="hunt">Submit the eggs you found</a></p>
 			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
