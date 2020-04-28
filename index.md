@@ -35,7 +35,7 @@
 				<img src="/assets/img/omn_banner.png" alt="Open Mic Night Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/6hUbDyC" target="_blank" id="open_mic_night_discord" data-parent="open_mic_night">Open Mic Night Discord</a></p>
-			<!--<p><a href="https://twitch.tv/telepathicrum" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">Telepathic Rum on Twitch</a></p><!---->
+			<p><a href="https://twitch.tv/openmicnightvr" target="_blank" id="open_mic_night_twitch" data-parent="open_mic_night">Telepathic Rum on Twitch</a></p>
 			<iframe id="omnembed" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen="true"  scrolling="no" data-parent="open_mic_night"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
