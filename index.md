@@ -9,11 +9,11 @@
 			<hr style="height:10px; visibility:hidden;">
 			<p>Congratulations to the winners:&nbsp; Daisy Shaw, Mr. Yellow - Marcel, and Simsimer</p>
 			<img src="/assets/img/The_Yellow_Daisy_Dream_Team.png" alt="Winners of The Hunt 2020" height="auto" width="100%"/>
-			<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">
+			<!--<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">-->
 				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
-			</a>
+			<!--</a>
 			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
-			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>
+			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>-->
 			<hr style="height:10px; visibility:hidden;">
 		</div>
 	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop</button>
