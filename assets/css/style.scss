@@ -3,7 +3,13 @@
 
 /* @import "{{ site.theme }}"; */
 
+@font-face {
+    font-family: Lexend;
+    src: url("/assets/fonts/lexend_deca/LexendDeca-Regular.ttf");
+}
+
 body {
+    font-family: Lexend;
     text-align:center;
     background-image: none;
     background-color: #000000;
@@ -11,6 +17,7 @@ body {
 }
 
 footer {
+    font-family: Lexend;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -125,6 +132,7 @@ ul {
 }
 
 button {
+    font-family: Lexend;
     background-color: #000000;
     color: #049866;
     padding: 10px;
@@ -204,7 +212,7 @@ li.navbar a:hover {
     background-color: #003300;
 }
 
-/*coustom scrollbar*/
+/*----- coustom scrollbar -----*/
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -231,7 +239,8 @@ li.navbar a:hover {
     background: transparent;
 }
 
-/* collapsible layout */
+/*------------------------------------*/
+/*----- collapsible layout -----*/
 
 .collapsible {
     background-color: #049866;
@@ -276,10 +285,6 @@ li.navbar a:hover {
     margin: 20px 0 20px
 }
 
-.center {
-    text-align: center;
-}
-
 .encase {
     border-width: 0;
     width: 75%;
@@ -290,3 +295,7 @@ li.navbar a:hover {
 }
 
 /*------------------------------------*/
+
+.center {
+    text-align: center;
+}
