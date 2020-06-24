@@ -23,7 +23,7 @@ omn.on('value', (function(snapshot) {
 	var omnVal = snapshot.val();
 	if(omnVal){
 		document.getElementById('omnembed').style = "max-width:100%; height:480px; width:855px; border:0px";
-		document.getElementById('omnembed').src = "https://player.twitch.tv/?autoplay=false&video=v"+omnVal+"&parent=4point0productions.github.io";
+		document.getElementById('omnembed').src = "https://www.youtube.com/embed/"+omnVal;
 	}
 	if(!omnVal){
 		document.getElementById('omnembed').style = "max-width:0px; height:0px; width:0px; border:0px";
