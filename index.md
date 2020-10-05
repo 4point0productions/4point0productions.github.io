@@ -4,7 +4,7 @@
 			<p><a href="https://teespring.com/stores/4point0vr" target="_blank" id="merch_store" data-parent="openme">TeeSpring Store</a></p>
 			<p><a href="https://www.teepublic.com/user/coastalyst" target="_blank" id="old_merch_store" data-parent="openme">TeePublic Store</a></p>
 		</div>
-	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop&nbsp;&nbsp;|&nbsp;&nbsp;<span style="color:#00ff00;">Coming soon to Sansar!</span></button>
+	<button class="collapsible" id="rooftop" data-parent="rooftop" data-child="rooftop-child">The Rooftop&nbsp;&nbsp;|&nbsp;&nbsp;<span style="color:#000069;">Coming soon to Sansar!</span></button>
 		<div id="rooftop-child" class="innertext center" data-parent="rooftop">
 			<hr style="height:10px; visibility:hidden;">
 			<p>Coming soon to <a href="https://www.sansar.com/" target="_blank" id="sansar_link" data-parent="rooftop">Sansar</a></p>
