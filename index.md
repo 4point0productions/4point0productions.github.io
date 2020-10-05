@@ -17,18 +17,6 @@
 			<iframe id="rooftopembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="rooftop"></iframe>
 			<hr style="height:10px; visibility:hidden;">
 		</div>
-	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Hunt</button>
-		<div id="hunt-child" class="innertext center" data-parent="hunt">
-			<hr style="height:10px; visibility:hidden;">
-			<p>Congratulations to the winners:&nbsp; Daisy Shaw, Mr. Yellow - Marcel, and Simsimer</p>
-			<img src="/assets/img/The_Yellow_Daisy_Dream_Team.png" alt="Winners of The Hunt 2020" height="auto" width="100%"/>
-			<!--<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">-->
-				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
-			<!--</a>
-			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
-			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>-->
-			<hr style="height:10px; visibility:hidden;">
-		</div>
 	<button class="collapsible" id="open_mic_night" data-parent="open_mic_night" data-child="open_mic_night-child">Open Mic Night</button>
 		<div id="open_mic_night-child" class="innertext center" data-parent="open_mic_night">
 			<hr style="height:10px; visibility:hidden;">
@@ -48,5 +36,17 @@
 				<img src="/assets/img/ms_banner.png" alt="Minimum Specs Banner" height="auto" width="100%"/>
 			</a>
 			<p><a href="https://discord.gg/WNUfMr5" target="_blank" id="minimum_specs_discord" data-parent="minimum_specs">Minimum Specs Discord</a></p>
+		</div>
+	<button class="collapsible" id="hunt" data-parent="hunt" data-child="hunt-child">The Hunt</button>
+		<div id="hunt-child" class="innertext center" data-parent="hunt">
+			<hr style="height:10px; visibility:hidden;">
+			<p>Congratulations to the winners:&nbsp; Daisy Shaw, Mr. Yellow - Marcel, and Simsimer</p>
+			<img src="/assets/img/The_Yellow_Daisy_Dream_Team.png" alt="Winners of The Hunt 2020" height="auto" width="100%"/>
+			<!--<a href="https://account.altvr.com/events/1432825990144328472" target="_blank" id="hunt_event" data-parent="hunt">-->
+				<img src="/assets/img/hunt_banner.png" alt="The Hunt Banner" height="auto" width="100%"/>
+			<!--</a>
+			<p><a href="https://discord.gg/Rp9MAfd" target="_blank" id="hunt_discord" data-parent="hunt">The Hunt Discord</a></p>
+			<iframe id="huntembed" allow="encrypted-media" style="max-width:100%; height:0px; width:0px; border:0px" allowfullscreen  data-parent="hunt"></iframe>-->
+			<hr style="height:10px; visibility:hidden;">
 		</div>
 </div>
